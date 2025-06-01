@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="flFdA7EhBqkko3VZs7oS" name="Page-1">
+        <mxGraphModel dx="1247" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="SimpleSequentialChain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Verdana;fontStyle=4" vertex="1" parent="1">
+                    <mxGeometry x="40" y="50" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 12px;&quot;&gt;[ Restaurant name = &quot;HelloWorld&quot; ]&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5">
+                    <mxGeometry x="-0.1348" y="2" relative="1" as="geometry">
+                        <mxPoint x="13" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Generate&amp;nbsp;&lt;div&gt;Restaurant&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="90" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760.0000000000002" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Give me food&lt;div&gt;menu&amp;nbsp;&lt;/div&gt;&lt;div&gt;items&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="90" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="50" y="130" as="sourcePoint"/>
+                        <mxPoint x="570" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="[ Input = &quot;Srilankan&quot; ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=0;fontFamily=Verdana;" vertex="1" connectable="0" parent="6">
+                    <mxGeometry x="-0.2082" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Items:&lt;div&gt;- Polos currey&lt;/div&gt;&lt;div&gt;- Mango currey&lt;/div&gt;&lt;div&gt;etc ...&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="319" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="[ Single input, single output ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Verdana;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="200" y="50" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="SequentialChain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Verdana;fontStyle=6" vertex="1" parent="1">
+                    <mxGeometry x="40" y="240" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 12px;&quot;&gt;[ Restaurant name = &quot;Vegi-World&quot; ]&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="-0.1348" y="2" relative="1" as="geometry">
+                        <mxPoint x="13" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Generate&amp;nbsp;&lt;div&gt;Restaurant&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="280" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760.0000000000002" y="300" as="targetPoint"/>
+                        <mxPoint x="670.0000000000002" y="300" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Give me food&lt;div&gt;menu&amp;nbsp;&lt;/div&gt;&lt;div&gt;items&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="280" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="50" y="300" as="sourcePoint"/>
+                        <mxPoint x="570" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="[ Input = &quot;Srilankan&quot; ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=0;fontFamily=Verdana;" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="-0.2082" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="[ Multiple input, Multiple output ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Verdana;fontStyle=2" vertex="1" parent="1">
+                    <mxGeometry x="160" y="240" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="50" y="340" as="sourcePoint"/>
+                        <mxPoint x="560" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 12px;&quot;&gt;[ Diet = &quot;Vegan&quot; ]&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                    <mxGeometry x="-0.035" y="-4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760.0000000000002" y="340" as="targetPoint"/>
+                        <mxPoint x="670.0000000000002" y="340" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Restaurant Name:&amp;nbsp;&lt;div&gt;- &quot;Vegi-World&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="279" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Items:&lt;div&gt;- Polos currey&lt;/div&gt;&lt;div&gt;- Mango currey&lt;/div&gt;&lt;div&gt;etc ...&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="95" width="100" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
